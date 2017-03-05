@@ -52,11 +52,11 @@ ipfs help
 The help menu describing IPFS actions will be printed out.
 
 
-## Initialize an Ethereum node:
+## Initialize an Ethereum node
 
 We will start by setting up a private Ethereum blockchain on your local machine.
 
-### Setup Geth:
+### Setup Geth
 
 Create a new directory for your private blockchain. In your terminal (Mac/Linux) or command prompt (Windows) window, navigate to the directory and create a new account:
 ```
@@ -112,7 +112,7 @@ ipfs daemon
 
 Open `storage.html` and follow the instructions on the front page.
 
-## Further Resources:
+## Further Resources
 
 Below are references, projects, and developing work related to IPFS and Ethereum.
 
@@ -140,4 +140,4 @@ operating applications built to run on an ecosystem level.
 
 ## Acknowledgement
 
-The Ethereum Foundation and Ledger Labs have provided the original Ethereum [contract resources](https://github.com/ledgerlabs/ethereum-getting-started/wiki/Anatomy-of-a-Contract) used in this library.
+The Ethereum Foundation and Ledger Labs have provided the original Ethereum [contract resources](https://github.com/ledgerlabs/ethereum-getting-started/wiki/Anatomy-of-a-Contract).
