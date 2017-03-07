@@ -68,7 +68,7 @@ Enter a password when prompted for your local Ethereum account. Geth will create
 
 Setting up a private blockchain requires defining a genesis block, which sets the initial parameters and token distribution.
 
-Start by creating a new directory. In this directory, copy/paste/save the following JSON into a file called `genesisblock.json`:
+In the directory containing your account, copy/paste/save the following JSON into a file called `genesisblock.json`:
 ```
 {
     "nonce": "0xlookatmeimanonce",
@@ -117,17 +117,16 @@ Open `storage.html` and follow the instructions on the front page.
 Below are references, projects, and developing work related to IPFS and Ethereum.
 
 ### IPFS
-* [IPFS](http://ipfs.io) - A peer-to-peer hypermedia protocol
-to make the web faster, safer, and more open.
+* [IPFS](http://ipfs.io) - A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.
 * [astralboot](https://github.com/ipfs/astralboot) - Low level boot server that deploys directly out of IPFS (TFTP, PXE Boot).
 * [ipget](https://github.com/ipfs/ipget) - wget for IPFS: retrieve files over IPFS and save them locally.
 * [container-demos](https://github.com/ipfs/container-demos) - Demos on how to boot docker images and VMs from IPFS.
 * [ipfs-npm](https://github.com/ipfs/ipfs-npm) - npm on IPFS.
 
 ### Ethereum
-* [Ethereum](https://www.ethereum.org/) - Ethereum is a  decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.
+* [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.
 * [web3.js](https://github.com/ethereum/web3.js) - the Ethereum compatible JavaScript API which implements the Generic JSON RPC spec.
-* [Ethereum Javascript API (web3)](https://github.com/ethereum/wiki/wiki/JavaScript-API) - Web3 JavaScript Ðapp API
+* [Ethereum Javascript API (web3)](https://github.com/ethereum/wiki/wiki/JavaScript-API) - Web3 JavaScript Ðapp API.
 
 ### Ethereum + IPFS
  * [akasha](http://akasha.world/) - A Next-Generation Social Media Network, powered by Ethereum and embedded into IPFS.
@@ -136,7 +135,7 @@ to make the web faster, safer, and more open.
  * [eris](https://github.com/eris-ltd/eris) - An application platform for building, testing, maintaining, and
 operating applications built to run on an ecosystem level.
  * [uport](https://www.uport.me) - A mobile, self-sovereign identity and key management system, built on the Ethereum blockchain.
- * [js-deflate](https://github.com/dankogai/js-deflate) for gzipping of data to make it fit in URLs
+ * [js-deflate](https://github.com/dankogai/js-deflate) - Gzipping of data to make it fit in URLs
 
 ## Acknowledgement
 
