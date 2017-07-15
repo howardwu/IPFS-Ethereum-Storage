@@ -72,10 +72,10 @@ In the directory containing your account, copy/paste/save the following JSON int
 ```
 {
     "config": {
-        "chainId": 0,
+        "chainID"       : 10,
         "homesteadBlock": 0,
-        "eip155Block": 0,
-        "eip158Block": 0
+        "eip155Block":    0,
+        "eip158Block":    0
     },
     "nonce": "0xdeadbeef",
     "difficulty": "0x20000",

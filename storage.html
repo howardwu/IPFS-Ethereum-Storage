@@ -21,7 +21,8 @@
         if (err) {
             console.error(err);
         } else {
-            console.log("IPFS - connected to " + res.Peers.length + " peers");
+            var numPeers = res.Peers === null ? 0 : res.Peers.length;
+            console.log("IPFS - connected to " + numPeers + " peers");
         }
     });
 
