@@ -77,7 +77,7 @@ In the directory containing your account, copy/paste/save the following JSON int
         "eip155Block":    0,
         "eip158Block":    0
     },
-    "nonce": "0xdeadbeef",
+    "nonce": "0xlookatmeimanonce",
     "difficulty": "0x20000",
     "mixhash": "0x00000000000000000000000000000000000000647572616c65787365646c6578",
     "coinbase": "0x0000000000000000000000000000000000000000",
