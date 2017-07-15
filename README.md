@@ -71,7 +71,13 @@ Setting up a private blockchain requires defining a genesis block, which sets th
 In the directory containing your account, copy/paste/save the following JSON into a file called `genesisblock.json`:
 ```
 {
-    "nonce": "0xlookatmeimanonce",
+    "config": {
+        "chainId": 0,
+        "homesteadBlock": 0,
+        "eip155Block": 0,
+        "eip158Block": 0
+    },
+    "nonce": "0xdeadbeef",
     "difficulty": "0x20000",
     "mixhash": "0x00000000000000000000000000000000000000647572616c65787365646c6578",
     "coinbase": "0x0000000000000000000000000000000000000000",
