@@ -1,6 +1,6 @@
 # IPFS + Ethereum Storage
 
-We will create a simple datastore solution using IPFS and Ethereum. IPFS provides a convenient interface for distributed data storage, with a hash address for reference to our file. This address will be stored in our smart contract on a private Ethereum blockchain. To retrieve the latest data, we will fetch the address from our blockchain and query IPFS for the associated file.
+We will create a simple datastore solution using IPFS and Ethereum. IPFS provides a convenient interface for distributed data storage, with a hash-based content address for reference to our file. This address will be stored in our smart contract on a private Ethereum blockchain. To retrieve the latest data, we will fetch the address from our blockchain and query IPFS for the associated file.
 
 ## Build Guide
 
@@ -77,7 +77,7 @@ In the directory containing your account, copy/paste/save the following JSON int
         "eip155Block":    0,
         "eip158Block":    0
     },
-    "nonce": "0xlookatmeimanonce",
+    "nonce": "0x01",
     "difficulty": "0x20000",
     "mixhash": "0x00000000000000000000000000000000000000647572616c65787365646c6578",
     "coinbase": "0x0000000000000000000000000000000000000000",
@@ -128,6 +128,7 @@ Below are references, projects, and developing work related to IPFS and Ethereum
 * [ipget](https://github.com/ipfs/ipget) - wget for IPFS: retrieve files over IPFS and save them locally.
 * [container-demos](https://github.com/ipfs/container-demos) - Demos on how to boot docker images and VMs from IPFS.
 * [ipfs-npm](https://github.com/ipfs/ipfs-npm) - npm on IPFS.
+* [luckychain](https://github.com/luckychain/lucky) - Intel SGX and IPFS-based blockchain implementing Proof of Luck.
 
 ### Ethereum
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.
